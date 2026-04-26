@@ -21,7 +21,7 @@ void swap(A &a, B &b) {
     int temp = a.x;
     a.x = b.y;
     b.y = temp;
-    cout << "After Swapping\n";
+    cout << "swapped values:" << endl;
     cout << "A.x = " << a.x << endl;
     cout << "B.y = " << b.y << endl;
 }

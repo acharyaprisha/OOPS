@@ -13,7 +13,7 @@ public:
 };
 
 int main() {
-    Rectangle r[3];
+    Rectangle r[5];
 
     for (int i = 0; i < 3; i++) {
         cout << "Enter length and breadth: ";

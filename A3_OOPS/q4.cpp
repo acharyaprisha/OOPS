@@ -13,7 +13,7 @@ public:
 class B {
 public:
     void show(A a) {
-        cout << "Private value of A = " << a.x << endl;
+        cout << "private value of A is " << a.x << endl;
     }
 };
 

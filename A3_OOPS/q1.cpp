@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-class Sample {
+class ptrr {
 public:
     int x;
     void show() {
-        cout << "Value of x = " << x << endl;
+        cout << "Value of x is " << x << endl;
     }
 };
 
 int main() {
-    Sample obj;
-    Sample *ptr;
+    ptrr obj;
+    ptrr *ptr;
     ptr = &obj;
 
     obj.x = 10;   
