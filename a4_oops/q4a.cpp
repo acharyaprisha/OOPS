@@ -5,12 +5,12 @@ class Demo
 public:
     Demo()
     {
-        cout << "Constructor called\n";
+        cout << "Constructor"<<endl;
     }
 
     ~Demo()
     {
-        cout << "Destructor called\n";
+        cout << "Destructor"<<endl;
     }
 };
 
@@ -43,9 +43,9 @@ int main()
 
     cout << "Dynamic Float Array";
     float *farr = new float[3];
-    farr[0] = 1.1;
+    farr[0] = 0.9;
     farr[1] = 2.2;
-    farr[2] = 3.3;
+    farr[2] = 4.8;
 
     cout << "Float array: ";
     for(int i = 0; i < 3; i++)

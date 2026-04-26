@@ -10,7 +10,7 @@ public:
     {
         length = l;
         breadth = b;
-        cout << "Constructor called\n";
+        cout << "constructor"<<endl;
     }
 
     int area()
@@ -20,7 +20,7 @@ public:
 
     ~Rectangle()
     {
-        cout << "Destructor called for rectangle\n";
+        cout << "Destructor"<<endl;
     }
 };
 

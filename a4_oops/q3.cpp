@@ -6,12 +6,12 @@ class Demo
 public:
     Demo()
     {
-        cout << "Constructor called\n";
+        cout << "constructor"<<endl;
     }
 
     ~Demo()
     {
-        cout << "Destructor called\n";
+        cout << "destructor"<<endl;
     }
 };
 
