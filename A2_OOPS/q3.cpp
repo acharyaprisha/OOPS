@@ -4,7 +4,7 @@ using namespace std;
 class Demo {
 private:
     void privateFunc() {
-        cout << "Private function executed\n";
+        cout << "private function" << endl;
     }
 
 public:

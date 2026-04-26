@@ -7,7 +7,7 @@ public:
 };
 
 void Test::show() {
-    cout << "Function defined outside class\n";
+    cout << "function is define outside class" << endl;
 }
 
 int main() {

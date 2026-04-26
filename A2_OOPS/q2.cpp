@@ -7,8 +7,8 @@ private:
     int rollNo;
     float cgpa;
 
-    void privateMessage() {
-        cout << "Private Function Called\n";
+    void priv() {
+        cout << "private function"<<endl;
     }
 
 public:
@@ -28,12 +28,11 @@ public:
     void updateCGPA() {
         cout << "Enter new CGPA: ";
         cin >> cgpa;
-        privateMessage();   // calling private function
+        priv();
     }
 
     void displayDetails() {
-        cout << "\nStudent Details\n";
-        cout << name << " " << rollNo << " " << degree << " " << hostel << " " << cgpa << endl;
+            cout << name << " " << rollNo << " " << degree << " " << hostel << " " << cgpa << endl;
     }
 };
 

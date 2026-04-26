@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Demo {
+class Test {
 public:
     static int x;
 };
 
-int Demo::x = 100;
+int Test::x = 100;
 
 int main() {
-    cout << Demo::x;
+    cout << Test::x;
     return 0;
 }

@@ -35,7 +35,7 @@ struct Student {
     }
 
     void displayDetails() {
-        cout << "\nStudent Details\n";
+       
         cout << "Name: " << name << endl;
         cout << "Roll No: " << rollNo << endl;
         cout << "Degree: " << degree << endl;
