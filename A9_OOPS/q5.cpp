@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <cstring>   // for strlen()
+#include <cstring>  
 using namespace std;
 
 int main() {
@@ -9,8 +9,8 @@ int main() {
     cout << "enter a string: ";
     cin.getline(str, 100);
 
-    int length = strlen(str);
-    cout << "length of string: " << length << endl;
+    int len = strlen(str);
+    cout << "length of string is" << len << endl;
 
     ofstream file("data.txt");
     file << str;
@@ -19,7 +19,7 @@ int main() {
     ifstream filein("data.txt");
     char ch;
 
-    cout << "characters from file: ";
+    cout << "characters from file are ";
     while (filein.get(ch))
     cout << ch;
     
