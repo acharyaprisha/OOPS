@@ -2,9 +2,9 @@
 using namespace std;
 
 class Time {
-public:
+    private:
     int h,m,s;
-    
+    public:
     Time(int hours=0, int min=0, int sec=0){
         h=hours;
         m=min;

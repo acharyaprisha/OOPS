@@ -3,7 +3,7 @@
 using namespace std;
 
 int countt()
-{  ifstream file("NUM.TXT");
+{  ifstream file("NOTES.TXT");
   char ch;
   int count = 0;
 
